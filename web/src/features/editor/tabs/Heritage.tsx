@@ -25,7 +25,7 @@ function Portrait({
       title={parent.name}
       onClick={onPick}
       className={cn(
-        "flex aspect-square overflow-hidden rounded-[1vh] border transition-[border-color,background-color] duration-150 active:scale-96",
+        "flex aspect-square overflow-hidden rounded-[1vh] border transition-[border-color,background-color,scale] duration-150 active:scale-96",
         selected
           ? "border-tgi-green bg-tgi-green-10"
           : "border-white/8 bg-white/3 hover:bg-white/6",
