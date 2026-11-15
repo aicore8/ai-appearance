@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.3.1](https://github.com/aifivem/ai-appearance/compare/v0.3.0...v0.3.1) (2026-11-15)
+
+
+### Bug Fixes
+
+* **web:** presses ease again, transition lists name the scale property the split utilities animate ([cbb5cab](https://github.com/aifivem/ai-appearance/commit/cbb5cab0141c04c3cfb397e4b2ced07bad838ef3))
+
+
+### Code Refactoring
+
+* **web:** individual translate / scale / rotate utilities instead of arbitrary transforms (CEF 144) ([ae79dc7](https://github.com/aifivem/ai-appearance/commit/ae79dc7e6510ff2829c0e67f11f8f879e9657d48))
+
 ## [0.3.0](https://github.com/aifivem/ai-appearance/compare/v0.2.4...v0.3.0) (2026-11-02)
 
 
