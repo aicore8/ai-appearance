@@ -9,7 +9,7 @@ import { cn } from "../../lib/utils";
  * main action, dark `secondary` over the game, round `icon` stepper arrow that turns green on hover.
  */
 const buttonVariants = cva(
-  "inline-flex items-center justify-center gap-[0.8vh] rounded-[0.6vh] px-[1.6vh] whitespace-nowrap transition-[background-color,border-color,color,transform] duration-150 ease-out enabled:active:[transform:scale(0.97)] disabled:cursor-not-allowed disabled:opacity-40",
+  "inline-flex items-center justify-center gap-[0.8vh] rounded-[0.6vh] px-[1.6vh] whitespace-nowrap transition-[background-color,border-color,color,transform,translate,scale,rotate] duration-150 ease-out enabled:active:scale-97 disabled:cursor-not-allowed disabled:opacity-40",
   {
     variants: {
       variant: {
@@ -17,7 +17,7 @@ const buttonVariants = cva(
           "bg-tgi-green font-display font-extrabold text-tgi-green-text uppercase enabled:hover:bg-tgi-green-hover",
         secondary:
           "bg-black/55 font-medium text-white/80 enabled:hover:bg-white/15 enabled:hover:text-white",
-        icon: "size-[3.4vh] shrink-0 rounded-full border border-white/30 px-0 text-[1.3vh] text-[#cbcbcb] enabled:hover:border-tgi-green enabled:hover:bg-tgi-green enabled:hover:text-tgi-green-text enabled:active:[transform:scale(0.9)]",
+        icon: "size-[3.4vh] shrink-0 rounded-full border border-white/30 px-0 text-[1.3vh] text-[#cbcbcb] enabled:hover:border-tgi-green enabled:hover:bg-tgi-green enabled:hover:text-tgi-green-text enabled:active:scale-90",
       },
       size: {
         md: "h-[4.6vh] text-[1.6vh]",

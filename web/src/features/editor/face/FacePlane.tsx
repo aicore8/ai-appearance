@@ -15,7 +15,7 @@ import {
 const GRID_LINES = [1, 2, 4, 5];
 const EDGE = "truncate text-center text-[1.1vh] leading-[1.4] text-text-3";
 const SIDE =
-  "flex items-center justify-center overflow-hidden whitespace-nowrap text-[1.1vh] leading-[1.4] text-text-3 [writing-mode:vertical-rl] [transform:rotate(180deg)]";
+  "flex items-center justify-center overflow-hidden whitespace-nowrap text-[1.1vh] leading-[1.4] text-text-3 [writing-mode:vertical-rl] rotate-180";
 const KEYS: Record<string, [number, number]> = {
   ArrowLeft: [-1, 0],
   ArrowRight: [1, 0],
@@ -133,7 +133,7 @@ export function FacePlane({ plane }: { plane: FacePlaneConfig }) {
           <span className="absolute inset-y-0 left-1/2 w-px bg-white/15" />
           <span className="absolute inset-x-0 top-1/2 h-px bg-white/15" />
           <span
-            className="absolute size-[1.6vh] [transform:translate(-50%,-50%)] rounded-full bg-tgi-green [box-shadow:0_0_0_0.4vh_var(--green-20)]"
+            className="absolute size-[1.6vh] -translate-x-1/2 -translate-y-1/2 rounded-full bg-tgi-green [box-shadow:0_0_0_0.4vh_var(--green-20)]"
             style={{ left: `${ratioX * 100}%`, top: `${(1 - ratioY) * 100}%` }}
           />
         </div>
