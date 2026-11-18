@@ -1,4 +1,4 @@
-import { waitFor } from "@aifivem/lib/shared";
+import { waitFor } from "@aicore8/lib/shared";
 import type { Item } from "common/nui";
 
 /** Wearable items of a freemode model, by collection; built once per model and kept. */

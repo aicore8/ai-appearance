@@ -1,5 +1,5 @@
-import { cache, medical, onCache, Points } from "@aifivem/lib/client";
-import { RecordObjects } from "@aifivem/lib/shared";
+import { cache, medical, onCache, Points } from "@aicore8/lib/client";
+import { RecordObjects } from "@aicore8/lib/shared";
 import { readShop, type ShopType } from "common/content";
 import { Locale } from "common";
 import { content, world } from "./content";

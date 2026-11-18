@@ -1,5 +1,5 @@
-import { raycast, ScriptCamera, TickLoop } from "@aifivem/lib/client";
-import { distance } from "@aifivem/lib/shared";
+import { raycast, ScriptCamera, TickLoop } from "@aicore8/lib/client";
+import { distance } from "@aicore8/lib/shared";
 import type { CameraZone } from "common/nui";
 
 /**

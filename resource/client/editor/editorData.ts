@@ -1,4 +1,4 @@
-import { loadLocaleTexts } from "@aifivem/lib/client";
+import { loadLocaleTexts } from "@aicore8/lib/client";
 import {
   CLOTHING_COMPONENTS,
   HAIR_COMPONENT,

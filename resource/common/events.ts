@@ -1,4 +1,4 @@
-import type { ActionResult } from "@aifivem/shared";
+import type { ActionResult } from "@aicore8/shared";
 
 /** Net events and callbacks of ai-appearance (payload types in ./appearance). */
 export const EVENTS = {

@@ -1,5 +1,5 @@
-import { PlayerMap } from "@aifivem/lib/server";
-import type { Sex } from "@aifivem/shared";
+import { PlayerMap } from "@aicore8/lib/server";
+import type { Sex } from "@aicore8/shared";
 import type { Appearance } from "common/appearance";
 
 /** A loaded character's look in memory; `creating` until the creator is saved once. */

@@ -1,4 +1,4 @@
-import { asArgs, fail, readText } from "@aifivem/lib/shared";
+import { asArgs, fail, readText } from "@aicore8/lib/shared";
 import {
   aiLog,
   aiLogChannels,
@@ -9,8 +9,8 @@ import {
   optionalExport,
   PlayerMap,
   resourceExport,
-} from "@aifivem/lib/server";
-import { CORE, type CharacterInfo } from "@aifivem/shared";
+} from "@aicore8/lib/server";
+import { CORE, type CharacterInfo } from "@aicore8/shared";
 import { MODELS } from "common/appearance";
 import { toAppearance } from "common/appearanceParser";
 import { defaultAppearance } from "common/defaultAppearance";

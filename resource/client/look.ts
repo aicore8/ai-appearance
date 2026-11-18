@@ -1,6 +1,6 @@
-import { onServerEvent, registerExport } from "@aifivem/lib/client";
-import { asArgs, waitFor } from "@aifivem/lib/shared";
-import { CORE, toJobOutfit } from "@aifivem/shared";
+import { onServerEvent, registerExport } from "@aicore8/lib/client";
+import { asArgs, waitFor } from "@aicore8/lib/shared";
+import { CORE, toJobOutfit } from "@aicore8/shared";
 import type { Appearance } from "common/appearance";
 import { toAppearance } from "common/appearanceParser";
 import { EVENTS } from "common/events";

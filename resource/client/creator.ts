@@ -4,8 +4,8 @@ import {
   onServerEvent,
   player,
   resourceExport,
-} from "@aifivem/lib/client";
-import { asArgs, createLogger, waitFor } from "@aifivem/lib/shared";
+} from "@aicore8/lib/client";
+import { asArgs, createLogger, waitFor } from "@aicore8/lib/shared";
 import type { Appearance } from "common/appearance";
 import { toAppearance } from "common/appearanceParser";
 import { EVENTS } from "common/events";
